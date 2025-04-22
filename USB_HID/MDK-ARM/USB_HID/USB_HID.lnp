@@ -33,7 +33,9 @@
 "usb_hid\usbd_ctlreq.o"
 "usb_hid\usbd_ioreq.o"
 "usb_hid\usbd_customhid.o"
---strict --scatter "USB_HID\USB_HID.sct"
+"usb_hid\port.o"
+"usb_hid\range.o"
+--library_type=microlib --strict --scatter "USB_HID\USB_HID.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "USB_HID.map" -o USB_HID\USB_HID.axf

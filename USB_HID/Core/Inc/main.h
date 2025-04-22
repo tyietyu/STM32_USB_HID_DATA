@@ -36,6 +36,7 @@ extern "C" {
 #include <string.h>
 #include <stdbool.h>
 
+#include "range.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
